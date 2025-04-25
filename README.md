@@ -60,7 +60,7 @@ cd ~/PX4-Autopilot
 bash ./Tools/setup/ubuntu.sh
 make px4_sitl jmavsim
 ```
-
+### Now it should work, but if it didn't then do step 5 and 6
 ---
 
 ## 🔁 5. Restart WSL
