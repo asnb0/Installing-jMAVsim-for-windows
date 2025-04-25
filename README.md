@@ -4,6 +4,20 @@ This guide walks you through installing PX4 Autopilot with JMAVSim on Ubuntu usi
 
 ---
 
+## 🪟 Setting up WSL (Windows Subsystem Linux)
+
+If you are on Windows, you will need WSL with Ubuntu 22.04.  
+You can install it by opening **CMD** (Command Prompt) and running:
+
+```bash
+wsl --install -d Ubuntu-22.04
+```
+
+> ⚠️ **Note:**  
+> WSL may not work correctly on older Windows versions. Some additional setup or troubleshooting might be needed.
+
+---
+
 ## ✅ 1. Update Your System
 
 ```bash
@@ -21,7 +35,7 @@ sudo apt install openjdk-11-jdk
 ```
 
 > ⚠️ **Debugging Note:**  
-> You need **JDK 11** or higher. Check your current version with:
+> You need **JDK 11** or higher. Check your Java version with:
 >
 > ```bash
 > sudo update-alternatives --config java
@@ -35,7 +49,7 @@ sudo apt install openjdk-11-jdk
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 ```
 
-> ℹ️ **Note:** Restart your terminal after the installation finishes.
+> ℹ️ **Note:** After cloning, restart your terminal to refresh environment variables if needed.
 
 ---
 
@@ -57,7 +71,7 @@ Shut down WSL from regular CMD:
 wsl --shutdown
 ```
 
-Then relaunch WSL:
+Then reopen WSL:
 
 ```cmd
 wsl
