@@ -93,6 +93,6 @@ make px4_sitl jmavsim
 
 Sit back, relax, and enjoy the flight! 🛫
 
-> ⚠️ **Debugging Note:**  
+> ⚠**Note:**  
 >
 > This repository contains the user-friendly version. For more frequent or experimental updates, please check out the [Gist](https://gist.github.com/asnb0/31527f37c84ecd09002f63a51ce4464f).. 
