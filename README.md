@@ -1,4 +1,4 @@
-# 🛩 PX4 Autopilot Installation on Ubuntu (WSL)
+# 🛩 PX4 Simulation Using jMAVsim Installation on Ubuntu 22.04 (WSL)
 
 This guide walks you through installing PX4 Autopilot with JMAVSim on Ubuntu using WSL.
 
