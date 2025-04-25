@@ -91,4 +91,4 @@ make px4_sitl jmavsim
 
 ---
 
-Happy flying! 🛫
+Sit back, relax, and enjoy the flight! 🛫
