@@ -35,7 +35,7 @@ sudo apt install openjdk-11-jdk
 ```
 
 > ⚠️ **Debugging Note:**  
-> You need **JDK 11** or higher. Check your Java version with:
+> You need **JDK 11**. Check your Java version with:
 >
 > ```bash
 > sudo update-alternatives --config java
