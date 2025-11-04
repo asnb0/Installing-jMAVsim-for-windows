@@ -3,7 +3,7 @@
 This guide demonstrates how to run **three PX4 drones** using **Gazebo (gz sim)** and **MAVSDK**.  
 You will need **three terminals** — one for each PX4 instance.
 ---
-##Before starting, make sure you have:
+## Before starting, make sure you have:
 
 - **PX4-Autopilot** cloned and built (`make px4_sitl_default`)
 - **Gazebo (gz sim)** installed and configured
