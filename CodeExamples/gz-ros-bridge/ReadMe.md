@@ -24,7 +24,7 @@ It allows topics from Gazebo (gz transport) to be exposed as ROS 2 topics — an
 
 ### 📘 Official Documentation  
 🔗 [ROS ↔ Gazebo Bridge (ros_gz_bridge)](https://docs.ros.org/en/rolling/p/ros_gz_bridge/)
-
+note that you can get the mapping of the topics form this Documentation.
 ---
 
 ## 3. Understanding the Bridge Format
