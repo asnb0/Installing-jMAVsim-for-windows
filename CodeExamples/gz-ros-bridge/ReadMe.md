@@ -17,7 +17,7 @@ This package provides a collection of tools and nodes that allow **ROS 2 topics,
 
 ---
 
-## 🌉 2. What Is the ROS ↔ Gazebo Bridge?
+## 2. What Is the ROS ↔ Gazebo Bridge?
 
 The **ros_gz_bridge** node enables **bidirectional message passing** between ROS 2 and Gazebo.  
 It allows topics from Gazebo (gz transport) to be exposed as ROS 2 topics — and vice versa — by translating message types between the two ecosystems.
@@ -27,7 +27,7 @@ It allows topics from Gazebo (gz transport) to be exposed as ROS 2 topics — an
 
 ---
 
-## 🧠 3. Understanding the Bridge Format
+## 3. Understanding the Bridge Format
 
 When launching a bridge between ROS 2 and Gazebo, the topic remapping uses this format:
 
@@ -53,7 +53,7 @@ This tells the bridge:
 
 ---
 
-## 🚀 4. Running the Bridge
+## 4. Running the Bridge
 
 Run the bridge manually using the following command:
 note that is for the camera of PX4 X500_gimbal model 
