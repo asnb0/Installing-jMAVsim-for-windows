@@ -37,12 +37,6 @@ When launching a bridge between ROS 2 and Gazebo, the topic remapping uses this 
 <topic_name>@<ros2_message_type>@<gz_message_type>
 ```
 
-For example:
-
-```
-/world/baylands/model/x500_gimbal_0/link/camera_link/sensor/camera/image@sensor_msgs/msg/Image@gz.msgs.Image
-```
-
 ### Breakdown:
 | Part | Description |
 |------|--------------|
