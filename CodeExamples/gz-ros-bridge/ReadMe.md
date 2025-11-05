@@ -34,7 +34,7 @@ note that you can get the mapping of the topics form this Documentation.
 When launching a bridge between ROS 2 and Gazebo, the topic remapping uses this format:
 
 ```
-<topic_name>@<ros2_message_type>@<gz_message_type>
+ros2 run ros_gz_bridge parameter_bridge <topic_name>@<ros2_message_type>@<gz_message_type>
 ```
 
 ### Breakdown:
